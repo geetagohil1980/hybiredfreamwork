@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3823030700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Nopcommerce Valid Register Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-valid-register-test",
+        "after": [
+          {
+            "result": {
+              "duration": 692662400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 905095300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Register link",
+            "match": {
+              "location": "Register.user_click_on_Register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8725100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Register page and verify the register page",
+            "match": {
+              "location": "Register.user_is_on_Register_page_and_verify_the_register_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083593500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter Registration detail and click on registerbutton",
+            "match": {
+              "location": "Register.user_enter_FirstName_and_LastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9315000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on home page and verify the home page title",
+            "match": {
+              "location": "Register.user_is_on_home_page_and_verify_the_home_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce Login",
+    "description": "",
+    "id": "nopcommerce-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Register.feature"
+  }
+]

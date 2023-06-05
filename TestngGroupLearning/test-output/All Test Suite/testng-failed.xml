@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/sidgo/IdeaProjects/TestngGroupLearning(failed)">
+    <classes>
+      <class name="GroupStudy1">
+        <methods>
+          <include name="LogIn"/>
+          <include name="findProduct"/>
+        </methods>
+      </class> <!-- GroupStudy1 -->
+    </classes>
+  </test> <!-- C:/Users/sidgo/IdeaProjects/TestngGroupLearning(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
